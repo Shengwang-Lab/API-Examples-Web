@@ -16,7 +16,7 @@ jobs:
       - name: Gitee sync repo
         uses: Yikun/hub-mirror-action@v1.3
         with:
-          src: github/AgoraIO
+          src: github/Shengwang-Lab
           dst: gitee/agoraio-community
           white_list: "API-Examples-Web"
           static_list: "API-Examples-Web"
