@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.ico" />
+  <title>SSO</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translate(-50%, -50%);
+    }
+
+    .text {
+      font-size: 24px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="center">
+    <img id="loading" style="z-index: 100;width:300px;height:300px;" src="./loading.gif" />
+  </div>
+</body>
+
+<script src="../common/constant.js"></script>
+<script src="./index.js"></script>
+
+</html>
