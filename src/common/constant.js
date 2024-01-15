@@ -1,5 +1,5 @@
 const ENV = "dev" // dev, test, prod
-const AREA = "internal"  // internal, external 
+const AREA = "external"  // internal, external 
 const ORIGIN_URL = __calcOriginUrl()
 const SETUP_PAGE_URL = `${ORIGIN_URL}/index.html`
 let REDIRECT_URI = '' // sso redirect uri
